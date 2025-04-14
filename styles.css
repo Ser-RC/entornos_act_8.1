@@ -1,0 +1,62 @@
+/* Estilo encabezado */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Estilo general de la tabla */
+table {
+    border-collapse: separate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo de encabezados */
+th {
+    border: 2px solid grey;
+    padding: 8px;
+    background-color: rgb(186, 255, 255);
+}
+
+/* Estilo de celdas */
+td {
+    border: 0.5px solid grey;
+    padding: 10px;
+}
+
+/* Fondo gris en filas pares */
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+    ;
+}
+
+/* Efecto hover para filas */
+tr:hover {
+    background-color: #ddd;
+    ;
+}
+
+/* Estilo para el pie de tabla */
+tfoot {
+    background-color: #fbffda;
+    font-weight: 900;
+}
+
+/* Estilo para el pie de tabla diferenciado de las td */
+.pie-tabla {
+    background-color: #fbffda;
+}
+
+/* Efecto hover para el pie de tabla */
+.pie-tabla:hover {
+    background-color: #fbffda;
+    transition: 0.5s;
+    font-size: large;
+}
+
+/* Resaltado de la tabla */
+.highlight {
+    font-weight: bold;
+    background-color: aquamarine;
+}
